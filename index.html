@@ -1,0 +1,85 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>המערכת של בנימין מיכאלי 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            width: 100%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        section {
+            max-width: 800px;
+            margin: 2rem;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: right;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2rem;
+        }
+        .button {
+            background: linear-gradient(135deg, #89ff00, #00bcd4);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: transform 0.3s ease;
+        }
+        .button:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>המערכת של בנימין מיכאלי 2025 - מערכת ויזואליזציה רלוונטית לקבלת החלטות בתחום מכירות מוצרי חומרה של סמנסוג</h1>
+    </header>
+    <section>
+        <p>המערכת כוללת פרטים לגבי המטרות במיקוד בפלטפורמה של מכירות, מיקוד לקוחות, שעות קניות, פילוח לסוג החומרה שנרכשה ומיקום הרכישה. המערכת מספקת כלים ויזואליים מתקדמים לקבלת החלטות מבוססות נתונים.</p>
+        <div class="buttons">
+            <a href="dash1.html" class="button">מערכת 1 - מיקום ופלטפורמה</a>
+            <a href="dash2.html" class="button">מערכת 2 - מיקוד אחוז הנחה ופלטפורמה</a>
+            <a href="dash3.html" class="button">מערכת 3 - מיקוד בלקוחות</a>
+        </div>
+    </section>
+    <script>
+        // Simple JS for button interaction feedback
+        document.querySelectorAll('.button').forEach(button => {
+            button.addEventListener('click', () => {
+                console.log('Button clicked: ' + button.textContent);
+            });
+        });
+    </script>
+</body>
+</html>
